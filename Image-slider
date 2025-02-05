@@ -1,0 +1,32 @@
+/*The objective of this project is to create a dynamic image slider using HTML, CSS, and JavaScript. This
+slider will showcase different images with smooth transitions, providing an engaging and interactive user
+experience.*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="Task2.css">
+</head>
+<body>
+    <header>
+        <h1>Royal Enfield</h1>
+    </header>
+  <div class="slider">
+    <div class="slides">
+      <img src="C:\Users\MY PC\Desktop\fswdlab\img1.jpg"Image 1" class="slide active">
+      <img src="C:\Users\MY PC\Desktop\fswdlab\img2.jpg" alt="Image 2" class="slide">
+      <img src="C:\Users\MY PC\Desktop\fswdlab\img3.jpg" alt="Image 3" class="slide">
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+    <div class="indicators">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <script src="Task2.js"></script>
+</body>
+</html>
